@@ -1,4 +1,8 @@
 import express from "express";
+import db from "#db/client";
+import foldersRouter from "./routes/folders.js";
+import filesRouter from "./routes/files.js";
+
 const app = express();
 
 app.use(express.json());

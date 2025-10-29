@@ -1,4 +1,4 @@
-import db from "./client";
+import db from "./client.js";
 
 // GET all folders
 export async function getFolders() {
